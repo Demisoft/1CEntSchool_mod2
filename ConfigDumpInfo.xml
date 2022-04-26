@@ -15,8 +15,8 @@
 			<Metadata name="DataProcessor.ЗавершениеДня.TabularSection.УрокиДня.Attribute.Был" id="8ceb4639-dbe7-439d-be82-78fcef79e051"/>
 			<Metadata name="DataProcessor.ЗавершениеДня.TabularSection.УрокиДня.Attribute.Урок" id="fb483c49-579e-412a-ba58-1260c38d54f3"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3" configVersion="d0cd7d225106274c88571ad05e539abb00000000"/>
-		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма.Form" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3.0" configVersion="3b7f3167ce1f1f4e95b25b7fbf3bba2e00000000"/>
+		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3" configVersion="93e2c7aa0adc4d44921d108e8370cbee00000000"/>
+		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма.Form" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3.0" configVersion="4b11d2ff9f96d446b58ee9d88ce634af00000000"/>
 		<Metadata name="Document.Мероприятие" id="aa71e3ed-3927-4c55-9f00-ab2e17866cc9" configVersion="35e83d95dc219b419087f4caad12ba2700000000">
 			<Metadata name="Document.Мероприятие.Attribute.ВидМероприятия" id="2e0f4313-8560-4135-8d62-ec4e98d95947"/>
 			<Metadata name="Document.Мероприятие.Attribute.ТипМероприятия" id="9483abc0-c236-4cb1-8ee0-634527bb98f5"/>
