@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Дата" id="7">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Button name="Расчет" id="32">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Расчет</CommandName>
+			<ExtendedTooltip name="РасчетРасширеннаяПодсказка" id="33"/>
+		</Button>
+		<Table name="РасписаниеНаДень" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.РасписаниеНаДень</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="РасписаниеНаДеньКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="РасписаниеНаДеньКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="РасписаниеНаДеньРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="РасписаниеНаДеньСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>РасписаниеНаДень</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РасписаниеНаДеньСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="РасписаниеНаДеньСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РасписаниеНаДеньСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>РасписаниеНаДень</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РасписаниеНаДеньСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="РасписаниеНаДеньСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РасписаниеНаДеньУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>РасписаниеНаДень</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РасписаниеНаДеньУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="РасписаниеНаДеньУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="РасписаниеНаДеньНомерСтроки" id="23">
+					<DataPath>Объект.РасписаниеНаДень.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РасписаниеНаДеньНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="РасписаниеНаДеньНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="РасписаниеНаДеньВидУрока" id="26">
+					<DataPath>Объект.РасписаниеНаДень.ВидУрока</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РасписаниеНаДеньВидУрокаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="РасписаниеНаДеньВидУрокаРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="РасписаниеНаДеньМероприятие" id="29">
+					<DataPath>Объект.РасписаниеНаДень.Мероприятие</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РасписаниеНаДеньМероприятиеКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="РасписаниеНаДеньМероприятиеРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:TaskObject.ЗаписьДневника</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Расчет" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Расчет</Action>
+		</Command>
+	</Commands>
+</Form>

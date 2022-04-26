@@ -202,7 +202,7 @@
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>DontUse</ModalityUseMode>
+			<ModalityUseMode>Use</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_20</CompatibilityMode>
@@ -212,7 +212,9 @@
 			<Language>Русский</Language>
 			<Catalog>ТипыМероприятий</Catalog>
 			<Catalog>ВидыМероприятий</Catalog>
+			<Catalog>ВремяУроков</Catalog>
 			<Document>Мероприятие</Document>
+			<Task>ЗаписьДневника</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
