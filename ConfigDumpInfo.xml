@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
 	<ConfigVersions>
-		<Metadata name="Catalog.ТипыМероприятий" id="d57fa125-5474-4095-9f46-ef396b5347a1" configVersion="e7be7df9c3eb954db9a2170b98727b4800000000"/>
-		<Metadata name="Configuration.Конфигурация" id="f090ec0f-e726-4f4a-8b47-9ab486e6d371" configVersion="86bb40ce5811dd488dfdf00a4c329c0a00000000"/>
+		<Metadata name="Catalog.ВидыМероприятий" id="27644dbe-4d09-47bf-be44-8ba67ae7c56d" configVersion="7c49fffd3b4db1439455825079f0f4fa00000000"/>
+		<Metadata name="Catalog.ТипыМероприятий" id="d57fa125-5474-4095-9f46-ef396b5347a1" configVersion="9fe80bbba9a33d448cb9b215d40d16ef00000000"/>
+		<Metadata name="Catalog.ТипыМероприятий.Predefined" id="d57fa125-5474-4095-9f46-ef396b5347a1.1c" configVersion="9b3db0e622439a41affcec6702425e4700000000"/>
+		<Metadata name="Configuration.Конфигурация" id="f090ec0f-e726-4f4a-8b47-9ab486e6d371" configVersion="22c5b150c2fcf1429594ae201434bbb400000000"/>
 		<Metadata name="Language.Русский" id="282220ab-2df9-4fc5-a896-fda2679dd4bc" configVersion="9bca14cbef980546801a328cf7a2c6d100000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

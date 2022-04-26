@@ -211,6 +211,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Catalog>ТипыМероприятий</Catalog>
+			<Catalog>ВидыМероприятий</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
