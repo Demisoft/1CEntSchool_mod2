@@ -214,6 +214,7 @@
 			<Catalog>ВидыМероприятий</Catalog>
 			<Catalog>ВремяУроков</Catalog>
 			<Document>Мероприятие</Document>
+			<DataProcessor>ЗавершениеДня</DataProcessor>
 			<Task>ЗаписьДневника</Task>
 		</ChildObjects>
 	</Configuration>
