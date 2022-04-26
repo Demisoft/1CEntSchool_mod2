@@ -19,7 +19,7 @@
 			<Metadata name="Task.ЗаписьДневника.TabularSection.РасписаниеНаДень.Attribute.ВидУрока" id="891e9be0-9a61-4177-a26a-e5894ff97624"/>
 			<Metadata name="Task.ЗаписьДневника.TabularSection.РасписаниеНаДень" id="fdafa8d8-16f0-4be0-9e10-cf1b68814b18"/>
 		</Metadata>
-		<Metadata name="Task.ЗаписьДневника.Form.ФормаЗадачи" id="914a3b0f-4b97-4e31-81cb-b200234dbe96" configVersion="0f17b1528694e94abeb22db93a776a7e00000000"/>
-		<Metadata name="Task.ЗаписьДневника.Form.ФормаЗадачи.Form" id="914a3b0f-4b97-4e31-81cb-b200234dbe96.0" configVersion="7df816330cfbf94797cffacb686a588000000000"/>
+		<Metadata name="Task.ЗаписьДневника.Form.ФормаЗадачи" id="914a3b0f-4b97-4e31-81cb-b200234dbe96" configVersion="bc2bfd557830634e9f3e31e974c7a48100000000"/>
+		<Metadata name="Task.ЗаписьДневника.Form.ФормаЗадачи.Form" id="914a3b0f-4b97-4e31-81cb-b200234dbe96.0" configVersion="a41b30be77f664499b21d99ace1d634c00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
