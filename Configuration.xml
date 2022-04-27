@@ -32,8 +32,13 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>МойПланировщик</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мой планировщик</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_20</ConfigurationExtensionCompatibilityMode>
@@ -214,6 +219,7 @@
 			<Catalog>ВидыМероприятий</Catalog>
 			<Catalog>ВремяУроков</Catalog>
 			<Document>Мероприятие</Document>
+			<Report>МояЗанятость</Report>
 			<DataProcessor>ЗавершениеДня</DataProcessor>
 			<AccumulationRegister>Занятость</AccumulationRegister>
 			<Task>ЗаписьДневника</Task>
