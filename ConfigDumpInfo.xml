@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
 	<ConfigVersions>
+		<Metadata name="AccumulationRegister.Занятость" id="fba56733-533a-44a4-a0f3-dcc28fe5de61" configVersion="8479fcf8736c3e4982ec2fb02d8df74100000000">
+			<Metadata name="AccumulationRegister.Занятость.Resource.Секунды" id="09112a62-aa09-4741-a350-57500af87741"/>
+			<Metadata name="AccumulationRegister.Занятость.Dimension.ВидМероприятия" id="95eadefc-b5ad-4011-8e4d-a49b338fd54d"/>
+			<Metadata name="AccumulationRegister.Занятость.Dimension.ТипМероприятия" id="ee61618b-6a80-4ce3-a501-0a955ef0eaed"/>
+		</Metadata>
 		<Metadata name="Catalog.ВидыМероприятий" id="27644dbe-4d09-47bf-be44-8ba67ae7c56d" configVersion="7c49fffd3b4db1439455825079f0f4fa00000000"/>
 		<Metadata name="Catalog.ВремяУроков" id="5c5b71bc-81ed-47d8-a15d-42498a405d39" configVersion="19fce1472939414b8965b271e9ad4c0e00000000">
 			<Metadata name="Catalog.ВремяУроков.Attribute.ВремяЗавершения" id="9e19b831-e562-4c0e-a7f0-a19539caa02c"/>
@@ -8,7 +13,7 @@
 		</Metadata>
 		<Metadata name="Catalog.ТипыМероприятий" id="d57fa125-5474-4095-9f46-ef396b5347a1" configVersion="9fe80bbba9a33d448cb9b215d40d16ef00000000"/>
 		<Metadata name="Catalog.ТипыМероприятий.Predefined" id="d57fa125-5474-4095-9f46-ef396b5347a1.1c" configVersion="9b3db0e622439a41affcec6702425e4700000000"/>
-		<Metadata name="Configuration.Конфигурация" id="f090ec0f-e726-4f4a-8b47-9ab486e6d371" configVersion="be4c6b9f881acc4a998426e3d50ea56700000000"/>
+		<Metadata name="Configuration.Конфигурация" id="f090ec0f-e726-4f4a-8b47-9ab486e6d371" configVersion="5049a0fe93ccf24386cdba7a1c79580200000000"/>
 		<Metadata name="DataProcessor.ЗавершениеДня" id="6ed6909b-c862-4a07-b8f2-1c6fbd218321" configVersion="02b866f26300e346a5351b0f2630e22b00000000">
 			<Metadata name="DataProcessor.ЗавершениеДня.TabularSection.УрокиДня" id="28f738c0-c6d6-4777-bd14-140b01c16675"/>
 			<Metadata name="DataProcessor.ЗавершениеДня.Attribute.День" id="4e31f39b-2159-4e2d-8043-4b5d38456552"/>
@@ -17,7 +22,7 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3" configVersion="1a8d6e653e502343b99ea15a54aa141500000000"/>
 		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма.Form" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3.0" configVersion="c46cd73e617e5642937a8546e2cd4a6a00000000"/>
-		<Metadata name="Document.Мероприятие" id="aa71e3ed-3927-4c55-9f00-ab2e17866cc9" configVersion="f63e6d2a1ada9846bcc26eea8a5e292000000000">
+		<Metadata name="Document.Мероприятие" id="aa71e3ed-3927-4c55-9f00-ab2e17866cc9" configVersion="a3c3a764674f2e4d98acf9552c25a5d300000000">
 			<Metadata name="Document.Мероприятие.Attribute.ВидМероприятия" id="2e0f4313-8560-4135-8d62-ec4e98d95947"/>
 			<Metadata name="Document.Мероприятие.Attribute.ТипМероприятия" id="9483abc0-c236-4cb1-8ee0-634527bb98f5"/>
 		</Metadata>

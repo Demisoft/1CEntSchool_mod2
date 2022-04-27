@@ -1,86 +1,95 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
-	<Document uuid="aa71e3ed-3927-4c55-9f00-ab2e17866cc9">
+	<AccumulationRegister uuid="fba56733-533a-44a4-a0f3-dcc28fe5de61">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.Мероприятие" category="Object">
-				<xr:TypeId>6c7436c3-1bec-4ba8-993b-c709e39c8912</xr:TypeId>
-				<xr:ValueId>7044a951-c5fd-4e4f-9e8b-feb1186e5090</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.Занятость" category="Record">
+				<xr:TypeId>e8eb385a-f834-4f0b-8cbb-b8d4b052b751</xr:TypeId>
+				<xr:ValueId>6407b2d8-8b4e-4c58-86f5-797aea235c00</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.Мероприятие" category="Ref">
-				<xr:TypeId>39cb0d6a-5f81-4274-a9fc-c1ec428c9a82</xr:TypeId>
-				<xr:ValueId>0197f44a-e4d0-4ff7-8c9f-d72fddc359ad</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.Занятость" category="Manager">
+				<xr:TypeId>6894acc4-f6b4-46c5-9cfb-234accff3de8</xr:TypeId>
+				<xr:ValueId>2e1433a7-852e-4ac8-9953-30a4ca7ef5ed</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.Мероприятие" category="Selection">
-				<xr:TypeId>75d49a71-9af4-4f02-bff7-522e8c0063b1</xr:TypeId>
-				<xr:ValueId>ca2c3b49-7719-4402-b910-31a25fa11c95</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.Занятость" category="Selection">
+				<xr:TypeId>cddc1cac-b65a-491c-bcf5-24ad16b8fc58</xr:TypeId>
+				<xr:ValueId>81894244-10c1-4b37-ac08-4e04d17cd301</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.Мероприятие" category="List">
-				<xr:TypeId>0dffe687-b1cc-4056-9de2-1875349eb6ad</xr:TypeId>
-				<xr:ValueId>56d679ad-b466-4947-b26d-2a5b4e2545c0</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.Занятость" category="List">
+				<xr:TypeId>bcddd238-8160-4acf-8930-de5a73c18743</xr:TypeId>
+				<xr:ValueId>9a1deebd-a154-428d-be95-7616fae1a49a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.Мероприятие" category="Manager">
-				<xr:TypeId>67b14a5e-6d55-4f10-96c3-65d31299d283</xr:TypeId>
-				<xr:ValueId>065a0c1c-0b3a-4d80-a169-8b2d48aa06b9</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.Занятость" category="RecordSet">
+				<xr:TypeId>19288156-b10e-4547-8276-58bee4395743</xr:TypeId>
+				<xr:ValueId>44ca078c-e683-42cd-b741-da3b705e3493</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.Занятость" category="RecordKey">
+				<xr:TypeId>7156f873-0a78-4c63-9305-283264904baa</xr:TypeId>
+				<xr:ValueId>41c75d88-798b-40fd-9258-fcc028c9a375</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Мероприятие</Name>
+			<Name>Занятость</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Мероприятие</v8:content>
+					<v8:content>Занятость</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Numerator/>
-			<NumberType>String</NumberType>
-			<NumberLength>3</NumberLength>
-			<NumberAllowedLength>Variable</NumberAllowedLength>
-			<NumberPeriodicity>Day</NumberPeriodicity>
-			<CheckUnique>true</CheckUnique>
-			<Autonumbering>false</Autonumbering>
-			<Characteristics/>
-			<BasedOn/>
-			<InputByString>
-				<xr:Field>Document.Мероприятие.StandardAttribute.Number</xr:Field>
-			</InputByString>
-			<CreateOnInput>Use</CreateOnInput>
-			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
-			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
 			<DefaultListForm/>
-			<DefaultChoiceForm/>
-			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
-			<AuxiliaryChoiceForm/>
-			<Posting>Allow</Posting>
-			<RealTimePosting>Allow</RealTimePosting>
-			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
-			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
-			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Занятость</xr:Item>
-			</RegisterRecords>
-			<PostInPrivilegedMode>true</PostInPrivilegedMode>
-			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
+			<RegisterType>Turnovers</RegisterType>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
-			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation/>
-			<ExtendedObjectPresentation/>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-			<DataHistory>DontUse</DataHistory>
-			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
-			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="9483abc0-c236-4cb1-8ee0-634527bb98f5">
+			<Resource uuid="09112a62-aa09-4741-a350-57500af87741">
+				<Properties>
+					<Name>Секунды</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Секунды</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ee61618b-6a80-4ce3-a501-0a955ef0eaed">
 				<Properties>
 					<Name>ТипМероприятия</Name>
 					<Synonym>
@@ -103,8 +112,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -114,12 +121,13 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<UseInTotals>true</UseInTotals>
 				</Properties>
-			</Attribute>
-			<Attribute uuid="2e0f4313-8560-4135-8d62-ec4e98d95947">
+			</Dimension>
+			<Dimension uuid="95eadefc-b5ad-4011-8e4d-a49b338fd54d">
 				<Properties>
 					<Name>ВидМероприятия</Name>
 					<Synonym>
@@ -142,8 +150,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -153,11 +159,12 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<UseInTotals>true</UseInTotals>
 				</Properties>
-			</Attribute>
+			</Dimension>
 		</ChildObjects>
-	</Document>
+	</AccumulationRegister>
 </MetaDataObject>
