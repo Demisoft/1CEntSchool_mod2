@@ -6,6 +6,9 @@
 			<DataPath>Объект.День</DataPath>
 			<ContextMenu name="ДеньКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ДеньРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">ДеньПриИзменении</Event>
+			</Events>
 		</InputField>
 		<Table name="УрокиДня" id="4">
 			<AutoInsertNewRow>true</AutoInsertNewRow>

@@ -15,19 +15,20 @@
 			<Metadata name="DataProcessor.ЗавершениеДня.TabularSection.УрокиДня.Attribute.Был" id="8ceb4639-dbe7-439d-be82-78fcef79e051"/>
 			<Metadata name="DataProcessor.ЗавершениеДня.TabularSection.УрокиДня.Attribute.Урок" id="fb483c49-579e-412a-ba58-1260c38d54f3"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3" configVersion="93e2c7aa0adc4d44921d108e8370cbee00000000"/>
-		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма.Form" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3.0" configVersion="4b11d2ff9f96d446b58ee9d88ce634af00000000"/>
-		<Metadata name="Document.Мероприятие" id="aa71e3ed-3927-4c55-9f00-ab2e17866cc9" configVersion="35e83d95dc219b419087f4caad12ba2700000000">
+		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3" configVersion="1a8d6e653e502343b99ea15a54aa141500000000"/>
+		<Metadata name="DataProcessor.ЗавершениеДня.Form.Форма.Form" id="caaec19e-a0a4-4dbe-a239-9ab3df7eb7f3.0" configVersion="c46cd73e617e5642937a8546e2cd4a6a00000000"/>
+		<Metadata name="Document.Мероприятие" id="aa71e3ed-3927-4c55-9f00-ab2e17866cc9" configVersion="f63e6d2a1ada9846bcc26eea8a5e292000000000">
 			<Metadata name="Document.Мероприятие.Attribute.ВидМероприятия" id="2e0f4313-8560-4135-8d62-ec4e98d95947"/>
 			<Metadata name="Document.Мероприятие.Attribute.ТипМероприятия" id="9483abc0-c236-4cb1-8ee0-634527bb98f5"/>
 		</Metadata>
+		<Metadata name="Document.Мероприятие.ManagerModule" id="aa71e3ed-3927-4c55-9f00-ab2e17866cc9.2" configVersion="a8dab7d00a28bd4c99f3eee4bc2b7cfb00000000"/>
 		<Metadata name="Language.Русский" id="282220ab-2df9-4fc5-a896-fda2679dd4bc" configVersion="9bca14cbef980546801a328cf7a2c6d100000000"/>
 		<Metadata name="Task.ЗаписьДневника" id="00b6f99d-952a-41cf-b3f2-bb8d017b581a" configVersion="8b3b966a5b207545b5527054c1ca33e200000000">
 			<Metadata name="Task.ЗаписьДневника.TabularSection.РасписаниеНаДень.Attribute.Мероприятие" id="8893d122-e183-4370-8688-c68311bd1a66"/>
 			<Metadata name="Task.ЗаписьДневника.TabularSection.РасписаниеНаДень.Attribute.ВидУрока" id="891e9be0-9a61-4177-a26a-e5894ff97624"/>
 			<Metadata name="Task.ЗаписьДневника.TabularSection.РасписаниеНаДень" id="fdafa8d8-16f0-4be0-9e10-cf1b68814b18"/>
 		</Metadata>
-		<Metadata name="Task.ЗаписьДневника.Form.ФормаЗадачи" id="914a3b0f-4b97-4e31-81cb-b200234dbe96" configVersion="bc2bfd557830634e9f3e31e974c7a48100000000"/>
-		<Metadata name="Task.ЗаписьДневника.Form.ФормаЗадачи.Form" id="914a3b0f-4b97-4e31-81cb-b200234dbe96.0" configVersion="a41b30be77f664499b21d99ace1d634c00000000"/>
+		<Metadata name="Task.ЗаписьДневника.Form.ФормаЗадачи" id="914a3b0f-4b97-4e31-81cb-b200234dbe96" configVersion="c1405d22097449499066bd2872f08d0900000000"/>
+		<Metadata name="Task.ЗаписьДневника.Form.ФормаЗадачи.Form" id="914a3b0f-4b97-4e31-81cb-b200234dbe96.0" configVersion="a3e1d50177acdd40be82da3d7cb8b1e200000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
